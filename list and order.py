@@ -28,3 +28,22 @@ print (colors)
 # append to end of a list
 colors.append('blue')
 print(colors)
+
+popped_colors = colors.pop() #removal of last entry and assigned poppd variable
+print(colors)
+print(popped_colors)
+
+colors = ['red', 'orange', 'yellow']
+
+last_colors = colors.pop()
+print(f"The last color on the list is {last_colors.title()}.")
+
+colors = ['red', 'orange', 'yellow']
+print(colors)
+
+colors.remove('yellow')
+print(colors)
+
+foods = ['pasta', 'burgers', 'fries'] # alphabetically sorts
+foods.sort()
+print(foods)

@@ -17,3 +17,14 @@ print(bicycles[-1]) # access the last item of a list
 bicycles = ['trek', 'cannondale', 'redline', 'specialized']
 message = f"My first bicycle was a {bicycles[0].title()}."
 print(message)
+
+# modifying elements 
+colors = ['red', 'orange', 'yellow']
+print (colors)
+
+colors[0] = 'green'
+print (colors)
+
+# append to end of a list
+colors.append('blue')
+print(colors)
